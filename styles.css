@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqPGrIn4tN3ronViQ1u0t8lmhsItXRxvbrg&usqp=CAU);
+}
+
+.title{
+    margin: 20px;
+    color: red;
+    text-shadow: 0 0 10px black;
+}
+
+.container {
+
+    display: flex;
+}
+
+.container a img {
+    border-radius: 10px;
+    margin: 20px;
+    transition: linear .3s;
+}
+.container a img:hover{
+    box-shadow: 0 0 10px white;
+}
+
+.container a .fnf {
+    height: 200px;
+}
+
+.container a .twd{
+    height: 300px;
+}
+
+.container a .ys{
+    height: 300px;
+}
+
+.skins h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 50px 5px 50px 5px;
+    color: red;
+    text-shadow: 0 0 20px black;
+}
+
+.skins a{
+    font-size: 17pt;
+    margin: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.skins img{
+    transition: linear .3s;
+    box-shadow: 0 0 10px white;
+}
+
+
